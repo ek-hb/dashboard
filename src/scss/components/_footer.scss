@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3c3842;
+}
+.crafted {
+}
+.footer_nav_list {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+}
+.footer_nav_list li > a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer_nav_list li > a:hover {
+  opacity: 0.8;
+}
+.footer_nav_list li > a:active {
+  transform: scale(0.98);
+}
