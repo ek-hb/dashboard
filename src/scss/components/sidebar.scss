@@ -1,0 +1,60 @@
+.sidebar {
+  width: 268px;
+  height: 960px;
+  background-color: #1c1d21;
+  margin: 32px 40px 32px 32px;
+  border-radius: 30px;
+  p {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--color_white);
+    margin-left: 32px;
+  }
+  li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    p {
+      @include sidebar_li;
+    }
+  }
+  .blue {
+    background-color: #0066fe;
+    margin-left: -10px;
+    border-radius: 10px;
+    width: 220px;
+
+    img {
+      margin-left: 12px;
+    }
+    .end {
+      margin-left: 70px;
+    }
+  }
+}
+.sidebar_item_one {
+  display: flex;
+  flex-direction: row;
+  img {
+    margin: 39px 0px 75px 32px;
+  }
+  p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--color_white);
+    display: flex;
+    align-items: center;
+    margin: -27px 90px 0px 10px;
+  }
+}
+
+.footer_sidebar {
+  margin-top: 246px;
+  margin-bottom: 59px;
+}

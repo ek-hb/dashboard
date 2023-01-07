@@ -3,23 +3,9 @@
   @include('partials/head.html')
   <body>
     <div class="wrapper">
-      <div class="container">
-        @include('partials/header.html')
-        <main class="main">
-          @include('partials/section_general.html')
-          @include('partials/section_two.html')
-          @include('partials/section_choose.html')
-        </main>
-      </div>
-      @include('partials/section_experiments.html')
-      <div class="container">
-        @include('partials/floral_design.html')
-        @include('partials/our_works.html')
-      </div>
-      <div class="container">
-        @include('partials/get_started_us.html')
-        @include('partials/footer.html')
-      </div>
+      <div class="container">@include('partials/sidebar.html')</div>
+      <div class="container_one">@include('partials/main.html')</div>
+      <div class="container_two">@include('partials/aside.html')</div>
     </div>
   </body>
 </html>

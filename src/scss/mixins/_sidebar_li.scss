@@ -1,0 +1,12 @@
+@mixin sidebar_li {
+  color: var(--color_text_li_sidebar);
+  margin: 10px 0px 14px 15px;
+
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  justify-content: center;
+}

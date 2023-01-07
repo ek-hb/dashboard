@@ -1,0 +1,120 @@
+.aside_container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 40px 0px 40px;
+}
+.aside_main_2 {
+  h1 {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  p {
+    @include main_p;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    height: 72px;
+    border-radius: 12px;
+  }
+  .asside_bl {
+    display: flex;
+    flex-direction: row;
+    .aside_bl_one {
+      width: 220px;
+      height: 72px;
+      border-radius: 12px;
+      background-color: var(--background);
+      h3 {
+        margin: 20px 0px 21px 20px;
+        font-family: "Lexend";
+        font-weight: 600;
+      }
+    }
+  }
+  .aside_bl_two {
+    width: 150px;
+    height: 72px;
+    background-color: var(--background);
+    border-radius: 12px;
+    margin-left: 20px;
+    a {
+      color: var(--color_gray);
+      opacity: 0.6;
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 17px 4px 16px;
+    }
+    h3 {
+      font-size: 22px;
+      font-family: "Lexend";
+      font-weight: 500;
+      margin: 0px 72px 11px 16px;
+    }
+  }
+  .aside_button {
+    display: flex;
+    flex-direction: row;
+    h4 {
+      width: 175px;
+      height: 72px;
+      background-color: var(--color_gray);
+      color: var(--color_white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      font-family: "Lexend";
+      font-size: 16px;
+    }
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 40px;
+    }
+  }
+}
+.aside_main_3 {
+  h1 {
+    font-family: "Lexend";
+    font-weight: 600;
+    font-size: 26px;
+    color: var(--color_gray);
+  }
+  h5 {
+    @include main_p;
+    display: flex;
+    justify-content: space-between;
+  }
+  span {
+    color: var(--color_gray);
+    font-size: 16px;
+  }
+  table {
+    width: 470px;
+    tr {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #efeff5;
+      padding-bottom: 24px;
+    }
+    h4 {
+      font-family: "Lexend";
+      font-size: 16px;
+      color: var(--color_gray);
+    }
+    p {
+      @include main_p;
+      margin-top: -20px;
+    }
+  }
+}
